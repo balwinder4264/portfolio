@@ -9,26 +9,26 @@ const Projects = () => {
     {
       img: devlog,
       title: "e-commerce Android",
-      desc: "An e-commerce platform built for Android. Enables easy product browsing, secure transactions, and efficient user management.",
+      desc: "An e-commerce platform built for Android. Enables easy product browsing  and efficient user management.",
       live: "https://play.google.com/store/apps/details?id=com.opulence&hl=en_CA&gl=US",
     },
     {
       img: uilogs,
       title: "e-commerce iOS",
-      desc: "An iOS e-commerce app providing seamless shopping experiences with robust features, intuitive product search, and secure checkout processes.",
+      desc: "An iOS e-commerce app providing seamless shopping experiences with robust features and secure checkout processes.",
       live: "https://apps.apple.com/ca/app/opulence-global/id1512204765",
     },
     {
       img: cssProjects,
       title: "e-commerce Website",
-      desc: "A responsive e-commerce website built to enhance online shopping. Features user-friendly navigation, secure payment integration, and an efficient backend system.",
+      desc: "A e-commerce website built to enhance online shopping. Features user-friendly navigation and secure payment integration",
       live: "https://build-10-css-projects.netlify.app/",
       code: "https://github.com/Coderamrin/build-10-css-projects",
     },
     {
       img: getInspirred,
       title: "Marketplace",
-      desc: "Your comprehensive marketplace offering guests a wide range of attractions, activities, tours, and shows. Local experiences are curated based on location and seamlessly integrated into the platform. Instant ticket delivery via SMS or email and hosts receive 7% of every sale.",
+      desc: "Local experiences are curated based on location and seamlessly integrated into the platform.",
       live: "https://bnsellit.com/",
     },
   ];
