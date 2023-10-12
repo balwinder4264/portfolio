@@ -31,6 +31,18 @@ const Projects = () => {
       desc: "Local experiences are curated based on location and seamlessly integrated into the platform.",
       live: "https://bnsellit.com/",
     },
+    {
+      img: getInspirred,
+      title: "Venngo android",
+      desc: "Premium discount programs featuring exclusive perks from big brands and local favourites.",
+      live: "https://play.google.com/store/apps/details?id=com.venngo.mobileperks&hl=en_CA&gl=US",
+    },
+    {
+      img: getInspirred,
+      title: "Venngo Ios",
+      desc: "Premium discount programs featuring exclusive perks from big brands and local favourites.",
+      live: "https://apps.apple.com/ca/app/venngo/id522452356",
+    },
   ];
   
 
