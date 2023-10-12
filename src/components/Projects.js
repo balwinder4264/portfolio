@@ -8,33 +8,31 @@ const Projects = () => {
   const projects = [
     {
       img: devlog,
-      title: "devlog",
-      desc: " A multi author blog. Built with Node.js, MongoDB, React, Redux and Tailwind CSS ",
-      live: "https://devlogg.onrender.com/",
-      code: "https://github.com/Coderamrin/devlog",
+      title: "e-commerce Android",
+      desc: "An e-commerce platform built for Android. Enables easy product browsing, secure transactions, and efficient user management.",
+      live: "https://play.google.com/store/apps/details?id=com.opulence&hl=en_CA&gl=US",
     },
     {
       img: uilogs,
-      title: "uilogs",
-      desc: "Free website template directory for SaaS and Degital Agency. Built with Bootstrap, JQuery and JavaScript",
-      live: "https://uilogs.xyz/",
-      code: "https://github.com/Coderamrin/html-templates",
+      title: "e-commerce iOS",
+      desc: "An iOS e-commerce app providing seamless shopping experiences with robust features, intuitive product search, and secure checkout processes.",
+      live: "https://apps.apple.com/ca/app/opulence-global/id1512204765",
     },
     {
       img: cssProjects,
-      title: "css projects",
-      desc: "Frontend Mentor challange directory, solved with vanilla CSS",
+      title: "e-commerce Website",
+      desc: "A responsive e-commerce website built to enhance online shopping. Features user-friendly navigation, secure payment integration, and an efficient backend system.",
       live: "https://build-10-css-projects.netlify.app/",
       code: "https://github.com/Coderamrin/build-10-css-projects",
     },
     {
       img: getInspirred,
-      title: "get Inspirred",
-      desc: "Quote search app. Used Quotable API for the quotes and React, Redux on the frontend",
-      live: "https://get-inspirred.netlify.app/",
-      code: "https://github.com/Coderamrin/get-inspired",
+      title: "Marketplace",
+      desc: "Your comprehensive marketplace offering guests a wide range of attractions, activities, tours, and shows. Local experiences are curated based on location and seamlessly integrated into the platform. Instant ticket delivery via SMS or email and hosts receive 7% of every sale.",
+      live: "https://bnsellit.com/",
     },
   ];
+  
 
   return (
     <section className="bg-primary text-white px-5 py-32" id="projects">
