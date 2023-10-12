@@ -1,44 +1,45 @@
 import React from "react";
 import cssProjects from "../assets/cssprojects.png";
-import devlog from "../assets/devlog.png";
+import venngo from "../assets/venngo.png";
+import opulencelog from "../assets/opulence.png";
 import getInspirred from "../assets/get-inspirred.png";
 import uilogs from "../assets/uilogs.png";
 
 const Projects = () => {
   const projects = [
     {
-      img: devlog,
+      img: opulencelog,
       title: "e-commerce Android",
       desc: "An e-commerce platform built for Android. Enables easy product browsing  and efficient user management.",
       live: "https://play.google.com/store/apps/details?id=com.opulence&hl=en_CA&gl=US",
     },
     {
-      img: uilogs,
+      img: opulencelog,
       title: "e-commerce iOS",
       desc: "An iOS e-commerce app providing seamless shopping experiences with robust features and secure checkout processes.",
       live: "https://apps.apple.com/ca/app/opulence-global/id1512204765",
     },
     {
-      img: cssProjects,
+      img: opulencelog,
       title: "e-commerce Website",
       desc: "A e-commerce website built to enhance online shopping. Features user-friendly navigation and secure payment integration",
       live: "https://build-10-css-projects.netlify.app/",
       code: "https://github.com/Coderamrin/build-10-css-projects",
     },
     {
-      img: getInspirred,
+      img: venngo,
       title: "Marketplace",
       desc: "Local experiences are curated based on location and seamlessly integrated into the platform.",
       live: "https://bnsellit.com/",
     },
     {
-      img: getInspirred,
+      img: venngo,
       title: "Venngo android",
       desc: "Premium discount programs featuring exclusive perks from big brands and local favourites.",
       live: "https://play.google.com/store/apps/details?id=com.venngo.mobileperks&hl=en_CA&gl=US",
     },
     {
-      img: getInspirred,
+      img: venngo,
       title: "Venngo Ios",
       desc: "Premium discount programs featuring exclusive perks from big brands and local favourites.",
       live: "https://apps.apple.com/ca/app/venngo/id522452356",
