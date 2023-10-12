@@ -3,23 +3,23 @@ import React from "react";
 const Contact = () => {
   return (
     <section className="bg-secondery px-5 py-32" id="contact">
-      <div className="text-center md:w-[60%] mx-auto text-white">
+    <div className="text-center md:w-[60%] mx-auto text-white">
         <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[200px] mx-auto border-indigo-600 pb-2">
-          Contact Me
+            Contact Me
         </h2>
         <p>
-          I am currently open for a fulltime Frontend Developer role. If you
-          want to discuss about that feel free to email me or call me.
+            I am currently working as a Software Engineer. If you have any opportunities or projects you'd like to discuss, feel free to email me or call me.
         </p>
 
         <p className="py-2">
-          <span className="font-bold">Email:</span> balwindersingh4264@gmail.com
+            <span className="font-bold">Email:</span> balwindersingh4264@gmail.com
         </p>
         <p className="py-2">
-          <span className="font-bold">Phone:</span> +1 647-896-8771
+            <span className="font-bold">Phone:</span> +1 647-896-8771
         </p>
-      </div>
-    </section>
+    </div>
+</section>
+
   );
 };
 
