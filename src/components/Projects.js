@@ -1,20 +1,27 @@
 import React from "react";
 import cssProjects from "../assets/cssprojects.png";
 import venngo from "../assets/venngo.png";
+import venngoApp from "../assets/venngo-App.jpeg";
 import opulencelog from "../assets/opulence.png";
-import getInspirred from "../assets/get-inspirred.png";
-import uilogs from "../assets/uilogs.png";
-
+import opulenceApp from "../assets/opulence-App.jpeg";
+import bnsellit from "../assets/bnsellit.png";
+import bitebargains from "../assets/BiteBargain.jpeg";
 const Projects = () => {
   const projects = [
     {
-      img: opulencelog,
+      img: bnsellit,
+      title: "Bnsellit-Web",
+      desc: "BnSellit is a technology platform designed to increase vacation rental property sales",
+      live: "https://bnsellit.com/",
+    },
+    {
+      img: opulenceApp,
       title: "e-commerce Android",
       desc: "An e-commerce platform built for Android. Enables easy product browsing  and efficient user management.",
       live: "https://play.google.com/store/apps/details?id=com.opulence&hl=en_CA&gl=US",
     },
     {
-      img: opulencelog,
+      img: opulenceApp,
       title: "e-commerce iOS",
       desc: "An iOS e-commerce app providing seamless shopping experiences with robust features and secure checkout processes.",
       live: "https://apps.apple.com/ca/app/opulence-global/id1512204765",
@@ -33,19 +40,32 @@ const Projects = () => {
       live: "https://bnsellit.com/",
     },
     {
-      img: venngo,
+      img: venngoApp,
       title: "Venngo android",
       desc: "Premium discount programs featuring exclusive perks from big brands and local favourites.",
       live: "https://play.google.com/store/apps/details?id=com.venngo.mobileperks&hl=en_CA&gl=US",
     },
     {
-      img: venngo,
+      img: venngoApp,
       title: "Venngo Ios",
       desc: "Premium discount programs featuring exclusive perks from big brands and local favourites.",
       live: "https://apps.apple.com/ca/app/venngo/id522452356",
     },
+    {
+      img: bitebargains,
+      title: "Bite Bargain IOs",
+      desc: "Feast on deals, not on your wallet! With Bite Special, turn leftovers into delightful savings. Dive into discounts, and make every meal memorable",
+      live: "https://play.google.com/store/apps/details?id=com.bitebargains",
+    },
+    {
+      img: bitebargains,
+      title: "Bite Bargain Android",
+      desc: "Feast on deals, not on your wallet! With Bite Special, turn leftovers into delightful savings. Dive into discounts, and make every meal memorable",
+      live: "https://apps.apple.com/us/app/bite-bargains/id6467573406",
+    },
+   
   ];
-  
+
 
   return (
     <section className="bg-primary text-white px-5 py-32" id="projects">
@@ -68,7 +88,9 @@ const Projects = () => {
         {projects.map((project, i) => {
           return (
             <div className="relative" key={i}>
-              <img src={project.img} alt={project.title} />
+              <div className="image-container" style={{ width: 475, height: 250, overflow: 'hidden' }} >
+                <img src={project.img} alt={project.title} style={{maxWidth: "100%",height: "auto"}} />
+              </div>
               <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
                 <p className="py-5 text-center font-bold px-2 text-white">
                   {project.desc}
@@ -81,7 +103,7 @@ const Projects = () => {
                   >
                     Live
                   </a>
-                 
+
                 </div>
               </div>
             </div>
