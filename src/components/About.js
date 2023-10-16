@@ -11,20 +11,15 @@ const About = () => {
             </h2>
 
             <p className="pb-5">
-                Hi, My Name Is Balwinder Singh and everyone calls me Balwinder. I am a
-                Software Developer specialized in mobile and web application development.
+            Hello, I'm Balwinder, a Software Developer specializing in web and mobile apps. 
             </p>
             
             <p className="pb-5">
-                I am adept in building mobile applications using React Native for both iOS and Android platforms. My expertise in web development is backed by my knowledge of React.js, enriched by the power of Node.js for the backend support.
+            Expert in React.js, React Native, and Node.js, I craft robust applications, with proficiency in databases via MongoDB. Skilled in JavaScript, TypeScript, HTML, JSX, and cloud services like AWS, EC2, and Digital Ocean, I'm passionate about efficient, scalable solutions.
             </p>
 
             <p>
-                I am also proficient with MongoDB for handling databases, ensuring seamless data management and operations. My skill set also spans across Redux, Redux Tool Kit, Axios, Tailwind CSS, SaSS, and Css3 among others.
-            </p>
-
-            <p>
-            When not coding, I enjoy conceptualizing and creating code structures. It allows me to visualize and better understand complex coding paradigms and scenarios.
+            Beyond coding, I enjoy dissecting complex coding structures, enhancing my problem-solving arsenal.
             </p>
         </div>
 
